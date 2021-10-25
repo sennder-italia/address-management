@@ -24,8 +24,8 @@
         const urlSearchParams = new URLSearchParams(window.location.search);
         const params = Object.fromEntries(urlSearchParams.entries());
         
-        let cId = params[Object.keys(params)[0]]
-        console.log(cId)
-        document.getElementById("googleFrame").src = `https://script.google.com/a/macros/sennder.it/s/AKfycbxg7BQvX8WJCDic-XQIPBs9fPJurj6NXiYqHN8XkrqiNPFpPy81QlXkVlLM7JQwt9VGag/exec?cid=${cId}`
+        let cid = params[Object.keys(params)[0]]
+        console.log(cid)
+        document.getElementById("googleFrame").src = `https://script.google.com/a/macros/sennder.it/s/AKfycbxg7BQvX8WJCDic-XQIPBs9fPJurj6NXiYqHN8XkrqiNPFpPy81QlXkVlLM7JQwt9VGag/exec?cid=${cid}`
     </script>
 </html>
